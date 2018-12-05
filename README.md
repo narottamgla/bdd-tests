@@ -17,8 +17,7 @@
 * Install "natural plugin" using eclipse marketplace 
 
 ## Run tests:
-* `mvn clean verify` OR `mvn clean verify -Dwebdriver.driver=chrome`  - Run test scripts using Chrome browser.
-* `mvn clean verify -Dwebdriver.driver=firefox`  - Run test scripts using Firefox browser.
+* `mvn clean verify -P api` OR `mvn clean verify -P web`  OR `mvn clean verify -Dwebdriver.driver=chrome`  - Run test scripts using Chrome browser.
 
 ## View HTML Report
 * HTML report will be generated once execution finish -bdd-cucumber\target\site\serenity
